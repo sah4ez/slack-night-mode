@@ -90,10 +90,10 @@
   .uneditable-input:focus, .uneditable-textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
   textarea { background-color: #545454; border: 1px solid #000; color: #e6e6e6; }
   textarea:focus { border-color: rgba(130, 130, 130, 0.8); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 130, 130, 0.6); }
-  ::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
-  ::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
-  ::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
-  [data-placeholder]:empty::before { color: #e6e6e6 !important; }
+  *::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
+  *::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
+  *::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
+  *[data-placeholder]:empty::before { color: #e6e6e6 !important; }
   input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
   input::-moz-placeholder, textarea::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
   input::placeholder, textarea::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
@@ -166,7 +166,7 @@
   #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
   #msg_form .msg_mentions_button { color: #949494; }
   #msg_form .msg_mentions_button:hover { color: #e6e6e6; }
-  #msg_input { background: #545454; border-color: #424242; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  #msg_input { background: #545454; border-color: #424242; color: #e6e6e6; font-family: Monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   #msg_input::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
   #msg_input::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
   #msg_input::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
@@ -736,15 +736,15 @@
   .sssh-quote { color: #b0bec5; }
   .sssh-hr { color: #363636; }
   .sssh-link { color: #949494; }
-  .c-message--dense { font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  .c-message--dense { font-family: Monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .c-message--dense .c-timestamp__label { color: #949494; }
   .c-message--dense .c-message__content_header .c-custom_status { border-color: #363636; }
-  .dense_theme ts-message { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  .dense_theme ts-message { color: #e6e6e6; font-family: Monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .dense_theme ts-message.first .message_gutter .timestamp, .dense_theme ts-message.selected .message_gutter .timestamp { color: #949494; }
   .dense_theme ts-message .message_content .message_current_status { border-color: #363636; }
-  .c-message--light { font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  .c-message--light { font-family: Monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .c-message--light .c-message__sender .c-message__sender_link { color: #e6e6e6; }
-  .light_theme ts-message { color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+  .light_theme ts-message { color: #e6e6e6; font-family: Monospace, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
   .light_theme ts-message .message_content .message_sender, .light_theme ts-message .message_content .meta .message_sender:hover { color: #e6e6e6 !important; }
   .light_theme ts-message .comment::before { color: #949494; }
   .channel_overlay { border-color: #363636; color: #949494; }
