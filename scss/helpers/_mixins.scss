@@ -8,26 +8,26 @@
 }
 
 @mixin placeholder {
-  &::-webkit-input-placeholder {
+  #{if(&,"&","*")}::-webkit-input-placeholder {
     color: $base-font-color !important;
     -webkit-filter: none;
     filter: none;
     opacity: 0.5;
   }
 
-  &::-moz-placeholder {
+  #{if(&,"&","*")}::-moz-placeholder {
     color: $base-font-color !important;
     filter: none;
     opacity: 0.5;
   }
 
-  &::placeholder {
+  #{if(&,"&","*")}::placeholder {
     color: $base-font-color !important;
     filter: none;
     opacity: 0.5;
   }
 
-  &[data-placeholder]:empty::before {
+  #{if(&,"&","*")}[data-placeholder]:empty::before {
     color: $base-font-color !important;
   }
 }
