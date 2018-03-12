@@ -1,0 +1,23 @@
+// Theme Colors
+<<<<<<< HEAD
+$color-base: #2a2f33;
+=======
+$color-base: #1d2021;
+>>>>>>> b5c6788d6ae4bfd12c9737db7cae41d0bb9de947
+$color-highlight: #949494;
+
+$color-shade-darkest: #1d2027;
+$color-shade-dark: #282828;
+$color-shade-mid: #454c5c;
+$color-shade-light: #6b6f79;
+$color-shade-lightest: #504945;
+
+// Font Colors
+<<<<<<< HEAD
+$base-font-color: #f5f5f5;
+=======
+$base-font-color: #fbf1c7;
+>>>>>>> b5c6788d6ae4bfd12c9737db7cae41d0bb9de947
+
+$base-link-color: #90939b;
+$base-link-color-active: #90939b;
