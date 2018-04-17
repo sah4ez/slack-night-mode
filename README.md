@@ -38,3 +38,7 @@ Variants can have extensions which add additional changes.
 #### Monospaced ([source](scss/themes/_monospaced.scss))
 
 Replaces the messaging font stack with a monospace font stack.
+
+### My theme ([source](scss/theme_arc-dar.scss))
+Example
+![screenshot](https://raw.githubusercontent.com/sah4ez/slack-night-mode/master/screen_12_03_2018-23_39_1520887162.png)
